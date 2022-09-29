@@ -36,7 +36,7 @@
 
 ​							--NodeManager(nm):负责单独每一台机器的资源管理,实时保证和rm通信
 
-​							--ApplicationMaster:针对每个请求job(rm任务)的抽象封装
+​							--ApplicationMaster:针对每个请求job(MR任务)的抽象封装
 
 ​							--Container:将来运行在YARN上的每一个任务都会给其分配资源,Container就是当前任务所需资源的抽象封装
 
